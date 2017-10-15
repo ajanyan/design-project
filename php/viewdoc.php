@@ -119,13 +119,15 @@ $row2=mysqli_fetch_assoc($res2);
     </div>
     <div class="col-lg-6" >
       <br>
+          
+
       <?php 
           echo"<form action='../php/fullview.php' method='post' target='_blank'>
           <input type='hidden' name='id' value='$id'> 
           <input type='submit' class='form-control btn btn-secondary' value='View full Size'>  
           </form>";
       ?>
-      
+
 
 
 <?php
