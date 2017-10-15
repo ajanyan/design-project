@@ -113,7 +113,7 @@ $row2=mysqli_fetch_assoc($res2);
     <div class="col-lg-6" >
         <?php 
      $doc="../pdf/doc".$id.".pdf" ;
-     echo"<iframe name='myiframe' class='hidden-md-down'  type='application/pdf' id='myiframe' src=$doc></iframe>";
+     echo"<iframe name='myiframe' type='application/pdf' id='myiframe' src=$doc></iframe>";
   ?>
       
     </div>
