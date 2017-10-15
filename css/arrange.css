@@ -1,0 +1,41 @@
+#doc1
+{
+	position: absolute;
+	left: 0%;
+	top: 0%;
+}
+.frm
+{
+	position: absolute;
+	left: 58%;
+	top: 20%;
+}
+#form1
+{
+	width: 500px;
+	
+}
+#form2
+{
+	position: absolute;
+	left: 58%;
+	top: 30%;
+	width: 500px;
+}
+#form3
+{
+	position: absolute;
+	left: 58%;
+	top: 60%;
+	width: 500px;
+}
+
+//form23 not working
+#form23{
+	position: absolute;
+
+	left: 500px;
+	top: 1000px;
+	width: 500px;
+
+}
